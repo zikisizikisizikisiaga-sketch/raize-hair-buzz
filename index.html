@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAIZE HAIR BUZZ | 沖縄県那覇市の理容室</title>
+<meta name="description" content="沖縄県那覇市与儀の理容室 RAIZE HAIR BUZZ。モダンで洗練された空間で、上質なヘアスタイルをご提案します。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="#top" class="logo">RAIZE HAIR <span>BUZZ</span></a>
+    <nav class="nav" id="nav">
+      <ul class="nav__list">
+        <li><a href="#concept" class="nav__link">コンセプト</a></li>
+        <li><a href="#staff" class="nav__link">スタイリスト</a></li>
+        <li><a href="#works" class="nav__link">スタイリング事例</a></li>
+        <li><a href="#menu" class="nav__link">メニュー</a></li>
+        <li><a href="#reviews" class="nav__link">お客様の声</a></li>
+        <li><a href="#access" class="nav__link">店舗情報</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="top">
+    <div class="hero__bg">
+      <!-- images/hero.jpg を配置してください（推奨サイズ: 1920x1080以上） -->
+      <img src="images/hero.jpg" alt="RAIZE HAIR BUZZ 店内の様子" class="hero__img" onerror="this.style.display='none'">
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">NAHA OKINAWA BARBER SHOP</p>
+      <h1 class="hero__title">RAIZE HAIR <span class="hero__title-accent">BUZZ</span></h1>
+      <p class="hero__lead">トレンドと技術で、あなたをアップデート。</p>
+      <a href="#access" class="btn btn--primary">アクセス・ご予約</a>
+    </div>
+    <div class="hero__scroll">
+      <span></span>
+      SCROLL
+    </div>
+  </section>
+
+  <!-- ===== Concept Section ===== -->
+  <section class="concept" id="concept">
+    <div class="container">
+      <p class="section-eyebrow">CONCEPT</p>
+      <h2 class="section-title">コンセプト</h2>
+      <div class="concept__body">
+        <div class="concept__text">
+          <p>
+            2020年、沖縄那覇与儀の地に理容室BUZZは誕生しました。
+          </p>
+          <p>
+            変化の多い時代の中で、お客様一人ひとりの暮らしに寄り添い、「髪を整えることで、日々に自信と心地よさを届けること」を大切に歩んでまいりました。
+          </p>
+          <p>
+            時代とともに変わり続けるヘアスタイルや価値観。その中でも、丁寧な技術と心を込めたおもてなしは、いつの時代も変わらないものだと考えています。
+          </p>
+          <p>
+            沖縄という温かな土地で、地域の皆様に長く愛される理容室であり続けるために。<br>
+            これからも一人ひとりの魅力を引き出す技術を追求し、進化し続けてまいります。
+          </p>
+        </div>
+        <div class="concept__image reveal">
+          <!-- images/concept.jpg を配置してください -->
+          <img src="images/concept.jpg" alt="店内イメージ" onerror="this.parentElement.classList.add('img-placeholder')">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Stylist Section ===== -->
+  <section class="staff" id="staff">
+    <div class="container">
+      <div class="staff__header">
+        <p class="section-eyebrow">STYLIST</p>
+        <h2 class="section-title">スタイリスト紹介</h2>
+      </div>
+
+      <div class="staff__card">
+        <div class="staff__photo reveal">
+          <!-- images/stylist-owner.jpg を配置してください -->
+          <img src="images/stylist-owner.jpg" alt="オーナースタイリスト" onerror="this.parentElement.classList.add('img-placeholder')">
+        </div>
+        <div class="staff__info">
+          <p class="staff__role">OWNER STYLIST</p>
+          <h3 class="staff__name">新垣 守也</h3>
+          <p class="staff__message">
+            お客様一人ひとりの魅力を引き出すスタイルづくりを大切にしています。<br>
+            些細なことでもお気軽にご相談ください。丁寧なカウンセリングで、なりたいイメージを一緒に形にします。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Works / Gallery Section ===== -->
+  <section class="works" id="works">
+    <div class="container">
+      <p class="section-eyebrow">GALLERY</p>
+      <h2 class="section-title">スタイリング事例</h2>
+
+      <div class="marquee">
+        <div class="marquee__track" id="marqueeTrack">
+          <img src="images/works-1.jpg" alt="スタイリング事例1" onerror="this.style.display='none'">
+          <img src="images/works-2.jpg" alt="スタイリング事例2" onerror="this.style.display='none'">
+          <img src="images/works-3.jpg" alt="スタイリング事例3" onerror="this.style.display='none'">
+          <img src="images/works-4.jpg" alt="スタイリング事例4" onerror="this.style.display='none'">
+          <img src="images/works-5.jpg" alt="スタイリング事例5" onerror="this.style.display='none'">
+          <img src="images/works-6.jpg" alt="スタイリング事例6" onerror="this.style.display='none'">
+          <img src="images/works-7.jpg" alt="スタイリング事例7" onerror="this.style.display='none'">
+          <img src="images/works-8.jpg" alt="スタイリング事例8" onerror="this.style.display='none'">
+          <img src="images/works-9.jpg" alt="スタイリング事例9" onerror="this.style.display='none'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Menu Section ===== -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="menu__header">
+        <p class="section-eyebrow">MENU</p>
+      </div>
+
+      <div class="menu__group">
+        <h3 class="menu__category">CUT</h3>
+        <ul class="menu__list">
+          <li><span class="menu__item-name">一般</span><span class="menu__dots"></span><span class="menu__price">¥3,800</span></li>
+          <li><span class="menu__item-name">メンテナンスカット（2週間以内）</span><span class="menu__dots"></span><span class="menu__price">¥2,500</span></li>
+          <li><span class="menu__item-name">大学生</span><span class="menu__dots"></span><span class="menu__price">¥2,900</span></li>
+          <li><span class="menu__item-name">高校生</span><span class="menu__dots"></span><span class="menu__price">¥2,400</span></li>
+          <li><span class="menu__item-name">中学生</span><span class="menu__dots"></span><span class="menu__price">¥1,800</span></li>
+          <li><span class="menu__item-name">小学生</span><span class="menu__dots"></span><span class="menu__price">¥1,500</span></li>
+          <li><span class="menu__item-name">未就学児</span><span class="menu__dots"></span><span class="menu__price">¥1,000</span></li>
+        </ul>
+      </div>
+
+      <div class="menu__group">
+        <h3 class="menu__category">PERM</h3>
+        <p class="menu__category-note">カット込</p>
+        <ul class="menu__list">
+          <li><span class="menu__item-name">デザインパーマ</span><span class="menu__dots"></span><span class="menu__price">¥8,300〜</span></li>
+          <li><span class="menu__item-name">ストレートパーマ</span><span class="menu__dots"></span><span class="menu__price">¥9,300〜</span></li>
+          <li><span class="menu__item-name">特殊パーマ</span><span class="menu__dots"></span><span class="menu__price">¥11,000〜</span></li>
+        </ul>
+      </div>
+
+      <div class="menu__group">
+        <h3 class="menu__category">COLOR</h3>
+        <ul class="menu__list">
+          <li><span class="menu__item-name">カラー</span><span class="menu__dots"></span><span class="menu__price">¥4,500〜</span></li>
+          <li><span class="menu__item-name">ブリーチ</span><span class="menu__dots"></span><span class="menu__price">¥5,500〜</span></li>
+          <li><span class="menu__item-name">女性限定リタッチ</span><span class="menu__dots"></span><span class="menu__price">¥2,700</span></li>
+        </ul>
+      </div>
+
+      <p class="menu__note">【予約制】価格は全て税込です。詳細はお気軽にお問い合わせください。</p>
+    </div>
+  </section>
+
+  <!-- ===== Google Reviews Section ===== -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <p class="section-eyebrow">GOOGLE REVIEWS</p>
+      <h2 class="section-title">お客様の声</h2>
+
+      <div class="reviews__grid">
+        <article class="review-card">
+          <div class="review-card__head">
+            <div class="review-card__avatar">A</div>
+            <div>
+              <p class="review-card__name">お客様 A</p>
+              <p class="review-card__stars">★★★★★</p>
+            </div>
+          </div>
+          <p class="review-card__body">
+            丁寧なカウンセリングで理想通りの仕上がりでした。店内の雰囲気もとても落ち着いていて居心地が良かったです。
+          </p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__head">
+            <div class="review-card__avatar">B</div>
+            <div>
+              <p class="review-card__name">お客様 B</p>
+              <p class="review-card__stars">★★★★★</p>
+            </div>
+          </div>
+          <p class="review-card__body">
+            技術力が高く、細部までこだわってくれます。清潔感のある空間で毎回リラックスできます。
+          </p>
+        </article>
+
+        <article class="review-card">
+          <div class="review-card__head">
+            <div class="review-card__avatar">C</div>
+            <div>
+              <p class="review-card__name">お客様 C</p>
+              <p class="review-card__stars">★★★★★</p>
+            </div>
+          </div>
+          <p class="review-card__body">
+            スタッフの方の対応が丁寧で、初めてでも安心して任せられました。おすすめの理容室です。
+          </p>
+        </article>
+      </div>
+
+      <div class="reviews__cta">
+        <a href="https://www.google.com/maps/place/RAIZE+HAIR+BUZZ+MEN'S+%E3%83%A9%E3%82%A4%E3%82%BA%E3%83%98%E3%82%A2%E3%83%BC%E3%83%90%E3%82%BA%E3%83%A1%E3%83%B3%E3%82%BA/@26.2016903,127.6942511,17z/data=!4m8!3m7!1s0x34e569e1d0c1af65:0x163aefb13c9580d5!8m2!3d26.2016903!4d127.6942511!9m1!1b1!16s%2Fg%2F11lfcjhdbb" target="_blank" rel="noopener" class="btn btn--outline">Googleで口コミを見る</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Store Info / Access Section ===== -->
+  <section class="access" id="access">
+    <div class="container">
+      <p class="section-eyebrow">ACCESS</p>
+      <h2 class="section-title">店舗情報</h2>
+
+      <div class="access__exterior">
+        <!-- images/exterior.jpg を配置してください -->
+        <img src="images/exterior.jpg" alt="RAIZE HAIR BUZZ 外観" onerror="this.parentElement.style.display='none'">
+      </div>
+
+      <div class="access__body">
+        <div class="access__map">
+          <iframe
+            src="https://maps.google.com/maps?q=26.2016903,127.6942511&z=17&output=embed"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="RAIZE HAIR BUZZ 地図">
+          </iframe>
+        </div>
+        <div class="access__info">
+          <table class="info-table">
+            <tbody>
+              <tr>
+                <th>店名</th>
+                <td>RAIZE HAIR BUZZ</td>
+              </tr>
+              <tr>
+                <th>住所</th>
+                <td>〒902-0076<br>沖縄県那覇市与儀366-9 コーポ本若102</td>
+              </tr>
+              <tr>
+                <th>営業時間</th>
+                <td>
+                  月〜金　10:00〜19:30<br>
+                  土日祝　9:00〜19:00
+                </td>
+              </tr>
+              <tr>
+                <th>定休日</th>
+                <td>木曜日</td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td><a href="tel:09097821600">090-9782-1600</a></td>
+              </tr>
+              <tr>
+                <th>駐車場</th>
+                <td>あり</td>
+              </tr>
+              <tr>
+                <th>こだわり条件</th>
+                <td>
+                  <ul class="feature-tags">
+                    <li>4席以下の小型サロン</li>
+                    <li>駐車場あり</li>
+                    <li>店頭でのカード支払いOK</li>
+                    <li>男性スタッフが多い</li>
+                    <li>禁煙</li>
+                    <li>ドリンクサービスあり</li>
+                    <li>漫画が充実</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="line-card">
+            <div class="line-card__qr">
+              <!-- images/line-qr.jpg を配置してください -->
+              <img src="images/line-qr.jpg" alt="LINE公式アカウント QRコード" onerror="this.parentElement.classList.add('img-placeholder')">
+            </div>
+            <div class="line-card__text">
+              <p class="line-card__label">LINE公式アカウント</p>
+              <p class="line-card__desc">友だち追加で、気軽にご相談・ご予約いただけます。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p class="footer__logo">RAIZE HAIR <span>BUZZ</span></p>
+    <p class="footer__address">〒902-0076 沖縄県那覇市与儀366-9 コーポ本若102</p>
+    <p class="footer__copy">&copy; 2026 RAIZE HAIR BUZZ. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
