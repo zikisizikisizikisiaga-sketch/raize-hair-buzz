@@ -21,6 +21,7 @@
         <li><a href="#staff" class="nav__link">スタイリスト</a></li>
         <li><a href="#works" class="nav__link">スタイリング事例</a></li>
         <li><a href="#menu" class="nav__link">メニュー</a></li>
+        <li><a href="#schedule" class="nav__link">予約状況</a></li>
         <li><a href="#reviews" class="nav__link">お客様の声</a></li>
         <li><a href="#access" class="nav__link">店舗情報</a></li>
       </ul>
@@ -37,7 +38,7 @@
   <section class="hero" id="top">
     <div class="hero__bg">
       <!-- images/hero.jpg を配置してください（推奨サイズ: 1920x1080以上） -->
-      <img src="images/hero.jpg" alt="RAIZE HAIR BUZZ 店内の様子" class="hero__img" onerror="this.style.display='none'">
+      <img src="images/hero.jpg" alt="RAIZE HAIR BUZZ 店内の様子" class="hero__img" width="1170" height="1802" onerror="this.style.display='none'">
     </div>
     <div class="hero__overlay"></div>
     <div class="hero__content">
@@ -54,6 +55,8 @@
 
   <!-- ===== Concept Section ===== -->
   <section class="concept" id="concept">
+    <div class="concept__bg"></div>
+    <div class="concept__overlay"></div>
     <div class="container">
       <p class="section-eyebrow">CONCEPT</p>
       <h2 class="section-title">コンセプト</h2>
@@ -114,15 +117,15 @@
 
       <div class="marquee">
         <div class="marquee__track" id="marqueeTrack">
-          <img src="images/works-1.jpg" alt="スタイリング事例1" onerror="this.style.display='none'">
-          <img src="images/works-2.jpg" alt="スタイリング事例2" onerror="this.style.display='none'">
-          <img src="images/works-3.jpg" alt="スタイリング事例3" onerror="this.style.display='none'">
-          <img src="images/works-4.jpg" alt="スタイリング事例4" onerror="this.style.display='none'">
-          <img src="images/works-5.jpg" alt="スタイリング事例5" onerror="this.style.display='none'">
-          <img src="images/works-6.jpg" alt="スタイリング事例6" onerror="this.style.display='none'">
-          <img src="images/works-7.jpg" alt="スタイリング事例7" onerror="this.style.display='none'">
-          <img src="images/works-8.jpg" alt="スタイリング事例8" onerror="this.style.display='none'">
-          <img src="images/works-9.jpg" alt="スタイリング事例9" onerror="this.style.display='none'">
+          <img src="images/works-1.jpg" alt="スタイリング事例1" width="1158" height="1131" onerror="this.style.display='none'">
+          <img src="images/works-2.jpg" alt="スタイリング事例2" width="1121" height="1143" onerror="this.style.display='none'">
+          <img src="images/works-3.jpg" alt="スタイリング事例3" width="1170" height="1462" onerror="this.style.display='none'">
+          <img src="images/works-4.jpg" alt="スタイリング事例4" width="1168" height="1161" onerror="this.style.display='none'">
+          <img src="images/works-5.jpg" alt="スタイリング事例5" width="1170" height="1166" onerror="this.style.display='none'">
+          <img src="images/works-6.jpg" alt="スタイリング事例6" width="1170" height="1161" onerror="this.style.display='none'">
+          <img src="images/works-7.jpg" alt="スタイリング事例7" width="1156" height="1178" onerror="this.style.display='none'">
+          <img src="images/works-8.jpg" alt="スタイリング事例8" width="1163" height="1162" onerror="this.style.display='none'">
+          <img src="images/works-9.jpg" alt="スタイリング事例9" width="1138" height="1166" onerror="this.style.display='none'">
         </div>
       </div>
     </div>
@@ -140,11 +143,9 @@
         <ul class="menu__list">
           <li><span class="menu__item-name">一般</span><span class="menu__dots"></span><span class="menu__price">¥3,800</span></li>
           <li><span class="menu__item-name">メンテナンスカット（2週間以内）</span><span class="menu__dots"></span><span class="menu__price">¥2,500</span></li>
-          <li><span class="menu__item-name">大学生</span><span class="menu__dots"></span><span class="menu__price">¥2,900</span></li>
-          <li><span class="menu__item-name">高校生</span><span class="menu__dots"></span><span class="menu__price">¥2,400</span></li>
-          <li><span class="menu__item-name">中学生</span><span class="menu__dots"></span><span class="menu__price">¥1,800</span></li>
-          <li><span class="menu__item-name">小学生</span><span class="menu__dots"></span><span class="menu__price">¥1,500</span></li>
-          <li><span class="menu__item-name">未就学児</span><span class="menu__dots"></span><span class="menu__price">¥1,000</span></li>
+          <li><span class="menu__item-name">大学生</span><span class="menu__dots"></span><span class="menu__price">¥3,300</span></li>
+          <li><span class="menu__item-name">高校生</span><span class="menu__dots"></span><span class="menu__price">¥2,800</span></li>
+          <li><span class="menu__item-name">中学生以下</span><span class="menu__dots"></span><span class="menu__price">¥2,200</span></li>
         </ul>
       </div>
 
@@ -161,13 +162,36 @@
       <div class="menu__group">
         <h3 class="menu__category">COLOR</h3>
         <ul class="menu__list">
-          <li><span class="menu__item-name">カラー</span><span class="menu__dots"></span><span class="menu__price">¥4,500〜</span></li>
-          <li><span class="menu__item-name">ブリーチ</span><span class="menu__dots"></span><span class="menu__price">¥5,500〜</span></li>
+          <li><span class="menu__item-name">カラー</span><span class="menu__dots"></span><span class="menu__price">¥5,000</span></li>
+          <li><span class="menu__item-name">ブリーチ</span><span class="menu__dots"></span><span class="menu__price">¥6,600</span></li>
+          <li><span class="menu__item-name">メッシュ</span><span class="menu__dots"></span><span class="menu__price">¥7,500</span></li>
+          <li><span class="menu__item-name">ブローリフト</span><span class="menu__dots"></span><span class="menu__price">¥6,900</span></li>
           <li><span class="menu__item-name">女性限定リタッチ</span><span class="menu__dots"></span><span class="menu__price">¥2,700</span></li>
         </ul>
       </div>
 
       <p class="menu__note">【予約制】価格は全て税込です。詳細はお気軽にお問い合わせください。</p>
+    </div>
+  </section>
+
+  <!-- ===== Reservation Schedule Section ===== -->
+  <section class="schedule" id="schedule">
+    <div class="container">
+      <p class="section-eyebrow">SCHEDULE</p>
+      <h2 class="section-title">予約状況カレンダー</h2>
+      <p class="schedule__lead">
+        カレンダー上で現在の予約状況をご確認いただけます。空いている日時をひと目でチェックして、そのままオンラインでご予約いただけます。
+      </p>
+
+      <div class="schedule__cta">
+        <a href="https://calendar.app.google/vCieW3SewFmUpgDCA" target="_blank" rel="noopener" class="btn btn--primary">オンラインで予約する</a>
+      </div>
+
+      <div class="schedule__card">
+        <iframe src="https://calendar.google.com/calendar/embed?src=tairow%40icloud.com&ctz=Asia%2FTokyo&mode=MONTH&showTitle=0&showPrint=0&showTabs=0&showCalendars=0" style="border:0" frameborder="0" scrolling="no" title="BUZZ 予約状況カレンダー"></iframe>
+      </div>
+
+      <p class="schedule__note">※オンライン予約のほか、お電話・LINE公式アカウントからのご予約も承っております。<br>※パーマ・カラーなど施術時間が長くなるメニューの場合、確認のご連絡をさせていただくことがございます。</p>
     </div>
   </section>
 
@@ -232,7 +256,7 @@
 
       <div class="access__exterior">
         <!-- images/exterior.jpg を配置してください -->
-        <img src="images/exterior.jpg" alt="RAIZE HAIR BUZZ 外観" onerror="this.parentElement.style.display='none'">
+        <img src="images/exterior.jpg" alt="RAIZE HAIR BUZZ 外観" width="1000" height="566" onerror="this.parentElement.style.display='none'">
       </div>
 
       <div class="access__body">
@@ -293,7 +317,7 @@
           <div class="line-card">
             <div class="line-card__qr">
               <!-- images/line-qr.jpg を配置してください -->
-              <img src="images/line-qr.jpg" alt="LINE公式アカウント QRコード" onerror="this.parentElement.classList.add('img-placeholder')">
+              <img src="images/line-qr.jpg" alt="LINE公式アカウント QRコード" width="1170" height="1157" onerror="this.parentElement.classList.add('img-placeholder')">
             </div>
             <div class="line-card__text">
               <p class="line-card__label">LINE公式アカウント</p>
